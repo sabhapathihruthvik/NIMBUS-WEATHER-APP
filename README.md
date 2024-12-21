@@ -1,20 +1,39 @@
-<<<<<<< HEAD
-# nimbus
+# Nimbus Weather App 🌤️
 
-A new Flutter project.
+Nimbus is a **weather application** built using **Flutter**. It provides real-time weather updates for your current location with beautiful animations, responsive design, and additional weather-related information.
 
-## Getting Started
+## Features 🚀
 
-This project is a starting point for a Flutter application.
+- **Current Location Weather**: Automatically fetches weather for your current location using geolocation services.
+- **Dynamic Animations**: Shows animations for weather conditions using **Lottie** files.
+  - Sunny ☀️
+  - Cloudy ☁️
+  - Rainy 🌧️
+- **Real-time Weather Information**:
+  - City Name 🏙️
+  - Temperature 🌡️
+  - Weather Condition (e.g., Rain, Clear, Clouds)
+  - Humidity 💧
+  - Wind Speed 🌬️
+  - Atmospheric Pressure 📉
+- **Stylish UI**: Purple and blue gradient themes with a modern, user-friendly design.
+- **Offline & Debugging Support**: Handles missing permissions and errors gracefully.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# NIMBUS-WEATHER-APP
->>>>>>> 2c463d1d958d30755d01f71b95f04c9c57453f57
+---
+
+## How to Run the App 🛠️
+
+### Prerequisites
+1. Install **Flutter**: [Flutter Setup Guide](https://docs.flutter.dev/get-started/install).
+2. Get an API key from **OpenWeatherMap**:
+   - Go to [OpenWeatherMap](https://openweathermap.org/api).
+   - Create an account and generate an API key.
+   - Paste it in Code.
+---
+
+### Installation Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/sabhapathihruthvik/nimbus-weather-app.git
